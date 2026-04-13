@@ -1,0 +1,381 @@
+<!DOCTYPE
+<head>
+html> <html>
+<title>Movie Showcase</title>
+<link rel="stylesheet" href="home.css">
+</head>
+<body>
+<h1> Movie Showcase</h1>
+<p>Explore movies by category</p>
+<hr>
+<h3>Categories</h3>
+<nav><a href="horror movie.html">Horror Movies</a> <br><br></nav> <nav><a href="romantic comedy movie.html">Romantic Comedy
+Movies</a><br><br></nav>
+<nav><a href="action movie.html">Action Movies</a><br></nav>
+</body>
+</html>
+Home Page - home.js
+Home Page - home.css
+body
+{
+background-color: #111;
+sans-serif;
+color:
+font-family:
+align: center; white;
+} h1 { #ff4c4c; size:
+Atreixatl-,
+40px; color:
+font-
+} p {
+size: 18px;
+color: #ccc;
+font-
+} h3 {
+top: 30px;
+#ffd700;
+} nav a {
+none;
+#ff4c4c;
+margincolor:
+text-decoration:
+background-color:
+color: white;
+padding: 10px 20px;borderradius: 8px;
+inline-block;
+0.3s;
+}
+nav a:hover
+{
+display:
+transition:
+background-color: #ffd700;
+color: black;
+}
+// home.js
+//Display Current Date and Time
+function showDateTime() {
+//Welcome Alert
+window.onload = function () {
+alert(" Welcome to the Movie Showcase Website!");
+};
+}
+//Update time every second
+setInterval(showDateTime, 1000);
+const now = new Date();
+document.getElementById("datetime").innerHTML =
+" " + now.toLocaleString();
+HORROR MOVIE LIST – horror.html
+<!DOCTYPE html> <html> <head>
+<title>Horror Movies</title>
+<link rel="stylesheet" href="horror movie.css">
+</head>
+<body>
+<h1>Horror Movies</h1>
+<a href="Home .html">⬅ Back to Home</a>
+<hr>
+<h2>The Conjuring</h2>
+<a href="https://osnplus.com/en-in/movie/17255">Link</a><br>
+<p><b>Genre:</b> Horror</p>
+<p><b>Description:</b> Paranormal investigators help a haunted
+family.</p>
+<hr>
+<h2>Annabelle</h2>
+<a
+href="https://www.justwatch.com/in/movie/annabelle">Link</a><br>
+<p><b>Genre:</b> Horror</p>
+<p><b>Description:</b> A possessed doll spreads terror.</p>
+body {
+background: linear-gradient(to right, #000000, #2c0b0e);
+font-family: Arial, sans-serif;
+color: white;
+center;
+padding:
+text-align:
+margin: 0;
+20px;
+} h1 { color: #ff0000;
+font-size: 42px;
+2px 2px 8px black;
+text-shadow:
+} h2 {
+#ff4c4c;
+top: 30px;
+} p {
+#ddd;
+16px;
+color:
+margincolor:
+font-size:
+}
+none;
+#8b0000;
+padding: 8px 18px;
+radius: 6px;
+inline-block;
+a { text-decoration:
+background-color:
+color: white;
+borderdisplay:
+margin-top:
+5px; transition: 0.3s ease;
+}
+color: #ff0000;
+scale(1.1);
+}
+hr
+{
+wi
+dt
+h:
+a:hover { backgroundtransform:
+<hr>
+<h2>IT</h2>
+<a href="https://www.justwatch.com/in/movie/it-2017">Link</a><br>
+<p><b>Genre:</b> Horror</p>
+<p><b>Description:</b> A mysterious clown haunts a small town.</p>
+</body>
+</html>
+HORRORMOVIELIST–horror.css
+60
+%;
+border: 1px solid #ff0000;
+margin: 20px auto; }
+HORROR MOVIE LIST – horror.js
+// horror.js
+//Jump Scare Effect
+function showJumpScare() {
+// Search Function
+function searchHorrorMovies() {
+let input =
+document.getElementById("searchBar
+").value.toLowerCase();
+let movies =
+document.querySelectorAll(".movie");
+movies.forEach(movie => {
+let title =
+movie.querySelector("h2").innerText.t
+oLowerCase();
+movie.style.display =
+title.includes(input) ? "block" : "none";
+});
+}
+alert(" Boo! Welcome to the
+Horror Movie Collection!");
+}
+//Change Background Color for
+Spooky Effect
+function changeBackground() {
+document.body.style.backgroundCol
+or = "black";
+document.body.style.color = "red";
+}
+ROMANTIC COMEDY MOVIES – romantic.html
+<!DOCTYPE html> <html> <head>
+<title>Romantic Comedy Movies</title>
+<link rel="stylesheet" href="romantic comedy movie.css">
+</head>
+<body>
+<h1> Romantic Comedy Movies</h1>
+<a href="Home .html">⬅ Back to Home</a>
+<hr>
+<h2>Love Today</h2>
+<a href="https://www.justwatch.com/in/movie/love-today2022">Link</a><br>
+<p><b>Genre:</b> Romantic Comedy</p>
+<p><b>Description:</b> A fun love story with modern
+relationships.</p>
+Body
+{
+background: linear-gradient(to right, #ff9a9e, #fad0c4);
+font-family: 'Segoe UI', sans-serif; text-align: center;
+margin: 0;
+} h1 {
+size: 40px;
+color: #d63384;
+padding: 20px; color: #4a004a;
+fonttext-shadow: 2px 2px 5px white;
+}
+#b30059;
+top: 30px;
+}
+p
+{
+h2 { color:
+marginfont-size: 16px;
+}
+none;
+#ff4da6;
+a { text-decoration:
+background-color:
+color: white;
+padding: 8px 18px;
+radius: 20px;
+inline-block;
+borderdisplay:
+margin-top:
+5px; transition: 0.3s ease;
+font-weight: bold;
+<hr>
+<h2>OK Kanmani</h2>
+<a href="https://www.justwatch.com/in/movie/okkanmani">Link</a><br>
+<p><b>Genre:</b> Romantic Comedy</p>
+<p><b>Description:</b> Love blossoms between two independent
+youngsters.</p>
+<hr>
+<h2>Jaane Tu Ya Jaane Na</h2>
+<a href="https://www.justwatch.com/in/movie/jaane-tu-yajaanena">Link</a><br>
+<p><b>Genre:</b> Romantic Comedy</p>
+<p><b>Description:</b> Friendship turning into love.</p>
+</body>
+</html>
+ROMANTIC COMEDY MOVIES – romantic.css
+// romantic.js
+movies.forEach(movie => {
+let title =
+movie.querySelector("h2").innerText.toL
+owerCase();
+movie.style.display =
+title.includes(input) ? "block" : "none";
+});
+// Search Function
+function searchRomanticMovies() {
+let input =
+document.getElementById("searchBar").
+value.toLowerCase();
+let movies =
+document.querySelectorAll(".movie");
+}
+}
+a:hover {
+#b30059;
+scale(1.1);
+}
+background-color:
+transform:
+hr {
+width: 60%;
+border: 1px solid #d63384;
+margin: 20px auto; }
+ROMANTIC COMEDY MOVIES –
+romantic.js
+const randomQuote =
+quotes[Math.floor(Math.random() *
+quotes.length)];
+alert(randomQuote);
+}
+// Romantic Quote Generator
+function showLoveQuote() {
+const quotes = [
+" Love is best when shared.",
+" Every love story is beautiful.",
+" You are my today and all of my
+tomorrows.",
+" Love makes life magical."
+];
+ACTION THRILLER MOVIES – action.html
+<!DOCTYPE html> <html> <head>
+<title>Action Thriller Movies</title>
+<link rel="stylesheet" href="action movie.css">
+</head>
+<body>
+</body> </html>
+ACTIONTHRILLER MOVIES – action.css
+body {
+background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+font-family: 'Segoe UI', sans-serif; text-align: center; margin:
+0;
+} h1 {
+size: 42px;
+color: #00e6e6;
+padding: 20px; color: white;
+fonttext-shadow: 2px 2px 10px black;
+<h1>Action Thriller Movies</h1>
+<ahref="Home .html">⬅ Back to Home</a>
+<hr>
+<h2>Vikram</h2>
+<ahref="https://www.justwatch.com/in/movie/vikram2021">Link</a><br>
+<p><b>Genre:</b> Action Thriller</p>
+<p><b>Description:</b> A black-ops officer returns to stop a
+powerfuldrug cartel.</p>
+<hr>
+<h2>Kaithi</h2>
+<ahref="https://www.justwatch.com/in/movie/kaithi">Link</a><br>
+<p><b>Genre:</b> Action Thriller</p>
+<p><b>Description:</b> A prisoner fights against criminals to save
+policeofficers.</p>
+<hr>
+<h2>Mission Impossible</h2>
+<a
+href="https://www.justwatch.com/in/movie/missionimpossible">Link</a><br>
+<p><b>Genre:</b> Action Thriller</p>
+<p><b>Description:</b> A spy team performs high-risk missions across
+theworld.</p>
+}
+#ffcc00;
+h2 {
+top:
+} p {
+30px;
+color:
+marginfont-size: 16px;
+color: #ddd; } a {
+none;
+#ff6600;
+padding: 8px
+border-radius: 8px;
+inline-block;
+5px;
+fontbackgroundcolor:
+transform:
+width: 60%;
+#00e6e6;
+text-decoration:
+background-color:
+color: white;
+20px;
+display:
+margin-top:
+transition: 0.3s ease;
+weight: bold;
+}
+color: #00e6e6;
+black;
+scale(1.1);
+a:hover {
+}
+border:
+hr {
+1px solid
+margin: 20px auto; }
+ACTION THRILLERMOVIES
+action.js
+// action.js
+// Search Function
+function searchActionMovies() {
+input
+–
+let =
+document.getElementById("searchBar").
+value.toLowerCase();
+let movies =
+document.querySelectorAll(".movie");
+movies.forEach(movie => {
+let title =
+movie.querySelector("h2").innerText.toL
+owerCase();
+movie.style.display =
+title.includes(input) ? "block" : "none";
+});
+}
+// Rating Function
+function rateMovie(movieName) {
+let rating = prompt("Rate " +
+movieName + " (1 to 5 stars):");
+if (rating >= 1 && rating <= 5) {
+alert(" You rated " + movieName
++ " " + rating + " stars!");
+} else {
+alert("Please enter a valid rating
+between 1 and 5.");
+}
+}
