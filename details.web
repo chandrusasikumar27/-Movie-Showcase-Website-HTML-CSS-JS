@@ -1,0 +1,64 @@
+Procedure – Movie Showcase Website
+Step 1: Creating the Basic HTML Structure
+The project was started by creating HTML files using the
+Inside the <head>
+<title> tag.
+Step 3: Linking CSS File
+section,
+declaration along with <html>, <head>, and <body> tags.
+the title “Movie Showcase” was added using the
+Step 2: Setting Website Title
+<!DOCTYPE html>
+Each movie section includes:
+•
+•
+•
+<h2> for movie title
+<p> for genre
+<p> for description
+Styling CSS was used to:
+•
+•
+•
+•
+•
+Add background colors
+Improve font styles
+Style buttons Add hover effects
+Improve layout alignment
+The main page includes:
+•
+•
+•
+•
+<h1> for website title
+<p> for introduction
+<a> tags for category navigation
+<hr> for separation
+The project was tested to ensure:
+•
+•
+Proper navigation between pages
+Clean layout
+Attractive design
+for separation
+A separate CSS file was created and linked using:
+<link rel="stylesheet" href="style.css">
+This improves the design and appearance of the website.
+Step 7: Final Testing
+Step 5: Displaying Movie Details
+Step 4: Designing the Home Page
+<hr> Step 6: Applying CSS
+•
+•
+•
+•
+•
+•
+• Responsive button effects
+The browser loads the HTML structure.
+The CSS file enhances the visual appearance.
+Navigation links connect all pages.
+Headings highlight movie names.
+Styled buttons improve user interaction.
+Horizontal lines separate content clearly
